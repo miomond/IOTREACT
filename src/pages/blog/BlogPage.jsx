@@ -34,15 +34,13 @@ const itemData = [
 ]
 function BlogPage() {
 
-  const [products , setProducts]= useState([])
+  const [Users , setUsers]= useState([])
   useEffect(()=>{
-      axios.get('http://localhost:5000/user').then(res=>{
-          // console.log(res.data.products);
-          setProducts([...res.data.products])
+      axios.post('http://localhost:5000/user').then(res=>{
+           setUsers(res.data)
       })
   },[])
-
-console.log(products);
+console.log(Users[0].address);
 
   return (
     <>

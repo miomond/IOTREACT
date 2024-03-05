@@ -13,13 +13,12 @@ function Login() {
 
   function onSubmit(values) {
     console.log(values);
+    localStorage.setItem("registrationData", JSON.stringify(values));
+    console.log("Data stored in local storage");
   }
 
   return (
     <div className="contener">
-      {/* <div className="right-side">
-        <img src={loginImg} alt="" />
-      </div> */}
       <div className="left-side">
         <form onSubmit={handleSubmit(onSubmit)} >
         <h1>LogIn</h1>

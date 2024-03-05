@@ -7,7 +7,6 @@ import CommentButton from "../../../components/commentButton/CommentButton";
 
 
 function HeroPost( {item , i} ) {
-  console.log(item);
   const post =item;
   return (
     <div className="div1-card1" id="card1" key={i}>
