@@ -1,0 +1,81 @@
+.about-intro {
+    margin-top: 15%;
+  
+  }
+  
+  .pragraph {
+    
+    width: 100%;
+    padding-bottom: 30px;
+  
+  }
+  
+  .pragraph h1 {
+    color: #003162;
+    width: 20%;
+    font-size: px;
+    text-transform: capitalize;
+    margin-left: 200px;
+  }
+  
+  .pragraph p {
+    width: 50%;
+    color: #316099;
+    padding-top: 10px;
+  }
+  
+  .container-img {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top,
+    rgba(0, 0, 0, 0.5) 20%,
+    rgba(0, 0, 0, 0.5) 20%), url(../../assets/smart-home-with-internet-of-things.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    border-radius: 0px 0px 150px 0px;
+  }
+  
+  .container-img h2 {
+    color: #8dbcdd;
+    display: block;
+    padding-top: 500px;
+    padding-left: 89px;
+    width: 51%;
+    text-transform: capitalize;
+  
+  }
+
+
+
+
+  @media only screen and (max-width: 500px) {
+   
+    .pragraph {
+    
+      width: 100%;
+      padding-bottom: 30px;
+    
+    }
+    
+    .pragraph h1 {
+      width: 80%;
+      margin-left: 0px;
+    }
+    
+    .pragraph p {
+      width: 80%;
+      padding-top: 10px;
+    }
+      
+  .container-img h2 {
+    padding-top: 20px;
+    padding-left: 50px;
+    width: 90%;
+    text-transform: capitalize;
+  
+  }
+   
+
+  }

@@ -1,0 +1,25 @@
+
+@media only screen and (max-width: 500px) {
+   
+   .praHero{
+    height: fit-content;
+    padding-bottom: 50px;
+   }
+    .praHero h1 {
+        font-size: 18px;
+        line-height: 27px;
+        width: 80%;
+
+       }
+       .heroSection p {
+        font-size: 14px;
+        line-height: 25px;
+        color: #316099;
+        margin: 0px 30px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        width: 80%;
+    }
+       
+
+  }

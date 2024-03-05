@@ -1,0 +1,17 @@
+/* -----------start accordion---------------- */
+.accordion-container{
+    width: 600px;
+    margin: auto;
+    margin-top: 94px;
+    
+}
+.accordion-body {
+    padding: 24px 0;
+    color: #686058;
+    line-height: 34px;
+    font-size: 19px;
+}
+.accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+    
+    padding: 23px;
+}
